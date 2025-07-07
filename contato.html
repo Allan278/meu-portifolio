@@ -1,0 +1,48 @@
+<!DOCTYPE html> <!-- Define o tipo do documento como HTML5 -->
+<html lang="pt-BR"> <!-- Define o idioma da página como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna o site responsivo, adaptando-se a diferentes tamanhos de tela -->
+    <title>Meu Portfólio - Contato</title> <!-- Título da página exibido na aba do navegador -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Importa o arquivo CSS para estilizar a página -->
+</head>
+<body>
+    <header> <!-- Cabeçalho da página -->
+        <nav> <!-- Menu de navegação principal -->
+            <ul> <!-- Lista de links do menu -->
+                <li><a href="index.html">Sobre Mim</a></li> <!-- Link para a página inicial -->
+                <li><a href="formacao.html">Formação</a></li> <!-- Link para a seção de formação acadêmica ou profissional -->
+                <li><a href="https://cv-allan278.fwh.is/?i=1" target="_blank">Portifólio CV Allan</a></li> <!-- Link externo para o seu portfólio online, abre em nova aba -->
+                <li><a href="contato.html">Contato</a></li> <!-- Link para a página de contato -->
+            </ul>
+        </nav>
+    </header>
+
+    <main> <!-- Conteúdo principal da página -->
+        <section id="contato"> <!-- Seção dedicada ao formulário de contato -->
+            <h1>Entre em Contato</h1> <!-- Título principal da seção -->
+            <p>Preencha o formulário abaixo e entrarei em contato o mais breve possível.</p>
+            <form action="#" method="POST"> <!-- Formulário que envia dados via POST --> 
+                <div class="form-group"> <!-- Grupo de campo: Nome -->
+                    <label for="nome">Nome:</label> <!-- Rótulo do campo nome -->
+                    <input type="text" id="nome" name="nome" required> <!-- Campo de texto obrigatório -->
+                </div>
+                <div class="form-group"> <!-- Grupo de campo: E-mail -->
+                    <label for="email">E-mail:</label> <!-- Rótulo do campo e-mail -->
+                    <input type="email" id="email" name="email" required> <!-- Campo de e-mail obrigatório -->
+                </div>
+                <div class="form-group"> <!-- Grupo de campo: Mensagem -->
+                    <label for="mensagem">Mensagem:</label> <!-- Rótulo do campo mensagem -->
+                    <textarea id="mensagem" name="mensagem" rows="6" required></textarea> <!-- compo mensagem obrigatória -->
+                </div>
+                <button type="submit">Enviar Mensagem</button> <!-- Botão para enviar o formulário -->
+            </form>
+            </form>
+        </section>
+    </main>
+
+    <footer> <!-- Rodapé da página -->
+        <p>&copy; 2025 Allan Barbosa Ferreira. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

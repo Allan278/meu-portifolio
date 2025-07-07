@@ -1,0 +1,142 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo do texto */
+    line-height: 1.6; /* Espaçamento entre linhas para melhor legibilidade */
+    margin: 0; /* Remove margem padrão do body */
+    padding: 0; /* Remove padding padrão do body */
+    background-color: #ffffff; /* Cor de fundo suave para o site */
+    color: #000000; /* Cor do texto principal */
+}
+
+.container {
+    width: 80%; /* Largura do conteúdo principal */
+    margin: auto; /* Centraliza o container na página */
+    overflow: hidden; /* Limpa floats internos */
+    padding: 20px 0; /* Espaçamento superior e inferior */
+}
+
+/* --- Cabeçalho (Header) --- */
+header {
+    background: rgba(214, 214, 214, 0.973); /* Cor de fundo do cabeçalho */
+    padding: 1rem 0; /* Espaçamento interno */
+    border-bottom: 3px solid rgb(0, 201, 255); /* Borda inferior para destaque */
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+}
+
+/* Navegação (Nav) */
+nav ul {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove padding padrão */
+    margin: 0; /* Remove margem padrão */
+    display: flex; /* Usa flexbox para alinhar os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens da lista */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens da lista */
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0); /* Cor do link */
+    text-decoration: none; /* Remove sublinhado dos links */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    font-weight: bold; /* Deixa o texto em negrito */
+    padding: 5px 0; /* Espaçamento interno dos links */
+    transition: color 0.3s ease; /* Transição suave para a cor ao passar o mouse */
+}
+
+nav ul li a:hover {
+    color: rgb(0, 201, 255); /* Muda a cor do link ao passar o mouse */
+}
+
+/* --- Conteúdo Principal (Main) --- */
+main {
+    padding: 20px; /* Espaçamento interno para o conteúdo principal */
+    max-width: 900px; /* Largura máxima para o conteúdo */
+    margin: 20px auto; /* Centraliza o conteúdo e adiciona margem */
+    background: rgba(165, 165, 165, 0.514); /* Fundo branco para as seções de conteúdo */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave para a caixa */
+}
+
+section {
+    margin-bottom: 30px; /* Espaçamento entre as seções */
+    padding: 20px; /* Padding interno para as seções */
+    border-bottom: 1px solid #eee; /* Linha divisória entre seções */
+}
+
+section:last-child {
+    border-bottom: none; /* Remove a borda da última seção */
+}
+
+h1 { /*centralizar o h1*/
+    text-align: center
+
+}
+h1, h2, h3 {
+    color: rgb(0, 201, 255); /* Cor dos títulos */
+    margin-bottom: 15px; /* Margem inferior para os títulos */
+}
+
+p {
+    margin-bottom: 10px; /* Margem inferior para parágrafos */
+}
+
+ul {
+    list-style: disc; /* Estilo de lista com disco */
+    margin-left: 20px; /* Recuo para itens de lista */
+}
+
+ul li {
+    margin-bottom: 8px; /* Espaçamento entre itens de lista */
+}
+
+/* Estilos Específicos do Formulário de Contato */
+.form-group {
+    margin-bottom: 15px; /* Espaçamento entre grupos de formulário */
+}
+
+.form-group label {
+    display: block; /* Faz o label ocupar toda a largura */
+    margin-bottom: 5px; /* Espaçamento entre label e input */
+    font-weight: bold; /* Negrito para os labels */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: calc(100% - 20px); /* Largura total menos o padding */
+    padding: 10px; /* Padding interno */
+    border: 1px solid #ddd; /* Borda suave */
+    border-radius: 4px; /* Cantos arredondados */
+    box-sizing: border-box; /* Inclui padding na largura total */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+.form-group textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+button[type="submit"] {
+    background-color: rgb(0, 201, 255); /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 12px 20px; /* Espaçamento interno */
+    border: none; /* Remove borda */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+    font-size: 1.1rem; /* Tamanho da fonte */
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+}
+
+button[type="submit"]:hover {
+    background-color: #555; /* Muda a cor de fundo ao passar o mouse */
+}
+
+/* --- Rodapé (Footer) --- */
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 20px; /* Espaçamento interno */
+    background: #14befb; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    margin-top: 30px; /* Margem superior para separar do conteúdo */
+}
